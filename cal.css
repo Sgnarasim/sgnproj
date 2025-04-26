@@ -1,0 +1,54 @@
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #E0E0E3;
+      
+    }
+
+    .calculator {
+      background-color: #F9D2A7;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+      background-image: url(20211224_130657.jpg);
+      background-image:var(10vh);
+    }
+
+    .display {
+      width: 100%;
+      height: 50px;
+      text-align: right;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 80px);
+      gap: 10px;
+      justify-content: center;
+      align-items:center;
+    }
+
+    button {
+      height: 60px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #5C44BF;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      
+    }
+
+    button:hover {
+      background-color: #282874;
+    }
+  
